@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Merriweather font -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
+
+    <title>Hello, world!</title>
+  </head>
+  <style>
+      body {
+          color: rgb(72, 92, 151);
+      }
+      .logo {
+          max-width: 400px;
+      }
+      h2 {
+          font-family: 'Merriweather', serif;
+      }
+      h3 {
+          font-family: 'Merriweather', serif;
+      }
+      .mission {
+          padding-left: 10px;
+          border-left: 2px solid rgb(72, 92, 151);
+      }
+      .events {
+          padding: 30px;
+      }
+      .events hr {
+          border-color: rgb(72, 92, 151);
+      }
+      .events .list-group .list-group-item:first-child {
+          border-radius: 0px;
+      }
+      .events .list-group .list-group-item:last-child {
+          border-radius: 0px;
+      }
+      .events .list-group .list-group-item {
+          width: 98%;
+          margin-left: 1%;
+          font-size: 25px;
+          height: 90px;
+          padding-top: 25px;
+          margin-top: 10px;
+          transition: width 0.3s, margin-left 0.3s;
+          -webkit-transition: width 0.3s, margin-left 0.3s;
+      }
+      .events .list-group .list-group-item:hover {
+          width: 100%;
+          margin-left: 0px;
+          box-shadow: 0px 0px 3px gray;
+          cursor: pointer;
+      }
+      #event1 {
+          background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Andrew_Classroom_De_La_Salle_University.jpeg/1200px-Andrew_Classroom_De_La_Salle_University.jpeg');
+          background-position-y: 50%;
+          color: white;
+      }
+      #event2 {
+          background-color: darkgoldenrod;
+          color: white;
+      }
+  </style>
+  <body>
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col-lg-5">
+                <div class="text-center">
+                    <img class="img-fluid my-3 logo" src="http://www.osgoodteam.com/BLOG/wp-content/uploads/2013/09/Legend-Logo-1024x536.jpg">
+                </div>
+                <h2><strong>Legend</strong> Titans</h2>
+                <blockquote class="blockquote mission">
+                    <p>The relentless pursuit to <strong>challenge</strong>, <strong>communicate</strong>, <strong>create</strong>, and <strong>connect learning</strong></p>
+                </blockquote>
+            </div>
+            <div class="col-lg-7 events">
+                <h3>Events</h3>
+                <hr>
+                <ul class="list-group">
+                    <a id="event1" class="list-group-item list-group-item-action">Finals Week Schedule</a>
+                    <a id="event2" class="list-group-item list-group-item-action">Senior Events</a>
+                    <a id="event3" class="list-group-item list-group-item-action">Finals Week Schedule</a>
+                    <a id="event4" class="list-group-item list-group-item-action">Finals Week Schedule</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
