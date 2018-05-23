@@ -1,0 +1,64 @@
+.navbar a{
+    color:  !important;
+    }
+.navbar li{
+    padding-right:5px;
+   }
+body {
+    color: rgb(72, 92, 151);
+    font-family: 'Open Sans', sans-serif;
+}
+.logo {
+    max-width: 400px;
+}
+.navLogo{
+  max-width: 25%;
+  max-height: 25%;
+}
+.mission {
+    padding-left: 10px;
+    border-left: 2px solid rgb(72, 92, 151);
+}
+.events {
+    padding: 30px;
+
+}
+.events hr {
+    border-color: rgb(72, 92, 151);
+}
+.events .list-group .list-group-item:first-child {
+    border-radius: 0px;
+}
+.events .list-group .list-group-item:last-child {
+    border-radius: 0px;
+}
+.events .list-group .list-group-item {
+    width: 98%;
+    margin-left: 1%;
+    font-size: 25px;
+    height: 90px;
+    padding-top: 25px;
+    margin-top: 10px;
+    transition: width 0.3s, margin-left 0.3s;
+    -webkit-transition: width 0.3s, margin-left 0.3s;
+}
+.events .list-group .list-group-item:hover {
+    width: 100%;
+    margin-left: 0px;
+    box-shadow: 0px 0px 3px gray;
+    cursor: pointer;
+}
+#event1 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Andrew_Classroom_De_La_Salle_University.jpeg/1200px-Andrew_Classroom_De_La_Salle_University.jpeg');
+    background-position-y: 50%;
+    color: white;
+}
+#event2 {
+    background-color: darkgoldenrod;
+    color: white;
+}
+.legendHead {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: .3s;
+    -webkit-animation-iteration-count: 1;
+}
