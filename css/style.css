@@ -3,6 +3,9 @@
   font-size: 40px !important;
   font-weight: bold;
 }
+.navbar{
+  padding: 10px !important;
+}
 .navbar a{
     color: gray !important;
 }
