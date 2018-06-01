@@ -1,3 +1,6 @@
+.footer{
+  background-color: #485c97 !important;
+}
 .header{
   padding: 30px;
   font-size: 40px !important;
@@ -5,9 +8,10 @@
 }
 .navbar{
   padding: 10px !important;
+  background-color: rgba(72, 92, 151, 1) !important;
 }
 .navbar a{
-    color: gray !important;
+    color: white !important;
 }
 .navbar li{
     padding-right:5px;
